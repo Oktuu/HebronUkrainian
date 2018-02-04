@@ -1,0 +1,1881 @@
+* {
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "IowanOldSt_BT_Bold";
+    src: url("../fonts/IowanOldSt_BT_Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.hideThisBurger {
+    display: none;
+}
+
+.menuMobileName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
+    font-family: "Helvetica";
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.line1 {
+    margin-left: 10px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.line2 {
+    margin-left: 10px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.line3 {
+    margin-left: 10px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+}
+
+.line4 {
+    background-color: #cd546a;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.line6 {
+    background-color: #cd546a;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotate(45deg) translate(-8px, -6px);
+    transform: rotate(45deg) translate(-8px, -6px);
+}
+
+.line5 {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.burger_click {
+    border: none;
+    border-bottom: 2px solid #cd546a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #292929;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#donatFix {
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 65%;
+    right: -2%;
+}
+
+#img_donat {
+    -webkit-animation: pulse_animation 2s linear infinite;
+    animation: pulse_animation 2s linear infinite;
+    width: 50%;
+    -webkit-filter: drop-shadow(0px 2px 5px #fff);
+    filter: drop-shadow(0px 2px 5px #fff);
+}
+
+.hebron_content {
+    background-color: #f5f6fa;
+}
+
+.block_menu {
+    height: 100vh;
+    background-repeat: no-repeHat;
+    background: url(../img/bg_img_one.jpg);
+    -webkit-box-shadow: 0 0 0 3000px rgba(0, 0, 0, 0.55) inset;
+    box-shadow: 0 0 0 3000px rgba(0, 0, 0, 0.55) inset;
+    background-size: cover;
+}
+
+.nav_style {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 0 auto;
+    max-width: 1500px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.logo_div {
+    width: 10%;
+    margin-right: 0px;
+}
+
+.logo_text_hebron_column {
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    margin-left: 0px;
+    margin-right: 10px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.logo_text_hebron {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.hebron_menu {
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+}
+
+.link_hebron_home_page {
+    text-decoration: none;
+    color: white;
+}
+
+.hebron_list {
+    padding: 10px;
+}
+
+#name_of_company {
+    font-family: IowanOldSt_BT_Bold;
+    margin-left: 0px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    font-size: 24px;
+}
+
+#education_Organization {
+    font-family: IowanOldSt_BT_Bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.link_our_mission {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_students {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_sudy {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_faq {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.formbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.link_get_involved {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_contacts {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hebron_list {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.hebron_list:hover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #cd546a;
+}
+
+.ukrainian_block_link {
+    margin-top: 50px;
+}
+
+.represent_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.represent_text {
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.represent_hr {
+    margin-top: 30px;
+    border: none;
+    height: 2px;
+    background-color: white;
+    width: 40px;
+}
+
+.represent_motto {
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
+    color: white;
+}
+
+.represent_button {
+    margin-top: 30px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2px solid #cd546a;
+    border-radius: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(135deg, #cb4c70, #d8774c);
+    color: #fff;
+}
+
+.represent_button:hover {
+    color: #f5f6fa;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2px solid white;
+}
+
+.take_a_tour_link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.info_about_us {
+    margin-bottom: 50px;
+    max-width: 1600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.us_pictures {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 60%;
+}
+
+.text_about_us {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.name_Our_mission {
+    margin-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.block_with_hr {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.about_us_line_style {
+    margin-bottom: 20px;
+    border: none;
+    width: 30px;
+    height: 2px;
+    background-color: #cd546a;
+}
+
+.our_mission_name {
+    font-size: 22px;
+    color: #cd546a;
+    font-style: italic;
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.name_block_about_us {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.social_project_represent {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.about_pr_text_first {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about_pr_text_second {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.button_more_info {
+    margin-top: 10px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2px solid #cd546a;
+    border-radius: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(135deg, #cb4c70, #d8774c);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.button_more_info:hover {
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2px solid white;
+}
+
+.us_pictures_1 {
+    width: 40%;
+    margin: 10px;
+    -webkit-box-shadow: 5px 5px 15px 0px black;
+    box-shadow: 5px 5px 15px 0px black;
+}
+
+.us_pictures_2 {
+    width: 40%;
+    margin: 10px;
+    -webkit-box-shadow: 5px 5px 15px 0px black;
+    box-shadow: 5px 5px 15px 0px black;
+}
+
+.us_pictures_3 {
+    width: 40%;
+    margin: 10px;
+    -webkit-box-shadow: 5px 5px 15px 0px black;
+    box-shadow: 5px 5px 15px 0px black;
+}
+
+.us_pictures_4 {
+    width: 40%;
+    margin: 10px;
+    -webkit-box-shadow: 5px 5px 15px 0px black;
+    box-shadow: 5px 5px 15px 0px black;
+}
+
+.our_process_block {
+    background: linear-gradient( 135deg, rgba(100, 0, 252, 0.85), rgba(90, 206, 231, 0.59));
+}
+
+.our_process_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.how_we_work {
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+    font-family: IowanOldSt_BT_Bold;
+}
+
+.how_we_work_line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 2px;
+    width: 40px;
+    border: none;
+    background-color: white;
+}
+
+.academy_works_name {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+.our_process_block_second {
+    max-width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.first_process {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.img_process_1 {
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.selection_step {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+}
+
+.text_selection_step {
+    font-size: 16px;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.second_process {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.trial_step {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+}
+
+.text_trial_step {
+    font-size: 16px;
+    color: white;
+    font-family: "helvetica";
+    font-family: "Montserrat";
+}
+
+.third_process {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.study_step {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+}
+
+.text_study_step {
+    font-size: 16px;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.fourth_process {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.employed_step {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+}
+
+.text_employed_step {
+    font-size: 16px;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.style_button {
+    top: 500px;
+    left: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.video_hebron {
+    max-width: 1800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+#video1 {
+    width: 90%;
+}
+
+#video1:hover {
+    margin: 0 autoww;
+    cursor: pointer;
+}
+
+.meet_the_project_team_block {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.ready_to_help_text {
+    margin-top: 70px;
+    font-style: italic;
+    font-size: 25px;
+    color: #cd546a;
+    font-family: "Times New Roman";
+}
+
+.project_line_style {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2px;
+    width: 40px;
+    border: none;
+    background-color: #cd546a;
+}
+
+.meet_us {
+    font-size: 38px;
+    color: #292929;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+}
+
+
+/*style slide*/
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 10px 20px;
+}
+
+.slick-slide img {
+    width: 70%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: silver !important;
+}
+
+
+/*style slide*/
+
+.carousel_photo {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.team_user_name {
+    margin-top: 2px;
+    color: #292929;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.about_user_name {
+    text-align: center;
+    color: #292929;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.social_icon_block {
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.box_social_image {
+    cursor: pointer;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.press_about_us {
+    padding-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fcfcfc;
+}
+
+.press_text {
+    color: #cd546a;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: "Times New Roman";
+    line-height: 26px;
+}
+
+.press_line_style {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40px;
+    background-color: #cd546a;
+    height: 2px;
+    border: none;
+}
+
+.name_press {
+    color: #292929;
+    font-family: "Helvetica";
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.block_img_dou {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dou_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.dou_img:hover {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.parteners {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.partners_name {
+    color: #cd546a;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: "Times New Roman";
+    line-height: 26px;
+}
+
+.parters_line_style {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 2px;
+    border: none;
+    background-color: #cd546a;
+}
+
+.support_our_project {
+    color: #292929;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 38px;
+    font-weight: normal;
+    font-family: "Helvetica";
+}
+
+.block_logo_all_companies {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.company {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo_company_img {
+    height: 70px;
+}
+
+.Get_in_touch {
+    background: linear-gradient(135deg, #cb4c70, #d8774c);
+}
+
+.get_in {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #f7f7f7;
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+}
+
+.drop_us {
+    text-align: center;
+    color: #f7f7f7;
+    font-size: 38px;
+    font-family: "Helvetica";
+}
+
+#button_send {
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 35px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: transparent;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 50px;
+}
+
+.atribut_formbx {
+    max-width: 1800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+.inputstyle1 {
+    background-image: url(..//img/formicon/user.png);
+    background-repeat: no-repeat;
+    background-position: 5px 3px;
+    height: 32px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 5px;
+    border: none;
+    width: 95%;
+    padding-left: 5%;
+    border-radius: 5px;
+}
+
+.inputstyle2 {
+    background-image: url(..//img/formicon/message.png);
+    background-repeat: no-repeat;
+    background-position: 5px 3px;
+    height: 32px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 5px;
+    border: none;
+    width: 95%;
+    padding-left: 5%;
+    border-radius: 5px;
+}
+
+.inputstyle3 {
+    background-image: url(..//img/formicon/phone.png);
+    background-repeat: no-repeat;
+    background-position: 5px 3px;
+    height: 32px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 5px;
+    border: none;
+    width: 95%;
+    padding-left: 5%;
+    border-radius: 5px;
+}
+
+#massage {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    width: 99%;
+    padding-top: 10px;
+    height: 120px;
+    resize: none;
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    padding-left: 1%;
+}
+
+#button_send:hover {
+    background-color: white;
+    color: #cd546a;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.down_block {
+    background-color: #28313a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.check_us_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.links_us {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.icons_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon_inblock {
+    -webkit-animation: pulse_animation 2s linear infinite;
+    animation: pulse_animation 2s linear infinite;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.content_down_block {
+    width: 100%;
+    max-width: 1800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.name_uper_block_check_us {
+    margin-left: 0px;
+    font-family: "Helvetica";
+    color: #ffefb1;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.ul_check_us {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.check_us_list {
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.name_hebron_footer {
+    margin-left: 50px;
+    font-family: IowanOldSt_BT_Bold;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    font-size: 24px;
+    color: white;
+}
+
+.text_hebron_footer {
+    margin-left: 50px;
+    font-family: IowanOldSt_BT_Bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    background-color: #242c34;
+}
+
+.block_footer_text {
+    max-width: 1800px;
+}
+
+.footer_text {
+    color: #c8c8c8;
+    font-size: 16px;
+    padding-left: 100px;
+    font-family: IowanOldSt_BT_Bold;
+}
+
+.link_it_hebron {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    color: red;
+}
+
+.check_us_list1 {
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+@-webkit-keyframes pulse_animation {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    30% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    40% {
+        -webkit-transform: scale(1.08);
+        transform: scale(1.08);
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    60% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    70% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse_animation {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    30% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    40% {
+        -webkit-transform: scale(1.08);
+        transform: scale(1.08);
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    60% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    70% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.button_donate {
+    -webkit-animation: pulse_animation 2s linear infinite;
+    animation: pulse_animation 2s linear infinite;
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2px solid #cd546a;
+    border-radius: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: #cd546a;
+    font-family: "Montserrat", sans-serif;
+}
+
+.button_donate:hover {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: linear-gradient(135deg, #cb4c70, #d8774c);
+    color: white;
+}
+
+.fixed {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    background-color: #fff;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    max-width: 5000px;
+    border-bottom: 2px solid #cb4c70;
+    z-index: 222;
+    padding-bottom: 5px;
+}
+
+.fixed #name_of_company {
+    color: #292929;
+}
+
+.fixed .hebron_list {
+    color: #292929;
+}
+
+.fixed #education_Organization {
+    color: #292929;
+}
+
+.fixed .logo_text_hebron {
+    margin-top: 0px;
+}
+
+.fixed .hebron_menu {
+    margin-top: 30px;
+}
+
+.fixed .ukrainian_block_link {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.scrollToTop {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    background: linear-gradient(135deg, #cb4c70, #d8774c);
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+    border-top-left-radius: 5px;
+    font-size: 28px;
+    z-index: 10;
+    padding: 10px;
+}
+
+.scrollToTop:hover {
+    text-decoration: none;
+}
+
+
+/* preloader */
+
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #233b50;
+    z-index: 100500;
+    opacity: 0.9;
+}
+
+#page-preloader .spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -16px 0 0 -16px;
+}
+
+.preloaderName {
+    font-size: 50px;
+    color: #fff;
+}
+
+.preloaderName:first-letter {
+    color: #cb4c70;
+}
+
+.spin {
+    width: 50px;
+    height: 50px;
+    background-color: #233b50;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    border-top-color: #cb4c70;
+    -webkit-animation: preloader 1s linear infinite;
+    animation: preloader 1s linear infinite;
+}
+
+@-webkit-keyframes preloader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-box-shadow: 0px 0px 20px 1px #fff;
+        box-shadow: 0px 0px 20px 1px #fff;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes preloader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-box-shadow: 0px 0px 20px 1px #fff;
+        box-shadow: 0px 0px 20px 1px #fff;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+/* mobile style */
+
+.mobileShow {
+    background-color: #292929;
+    height: 100vh;
+    display: none;
+}
+
+.mobileMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0px;
+    background-color: #292929;
+}
+
+.mobileMenu .button_donate {
+    position: static;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.mobileMenu .ukrainian_block_link {
+    margin-top: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.button_block {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list_mobile {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 10px;
+    list-style: none;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.list_mobile:hover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    background-color: #cb4c70;
+}
+
+.mobileLink {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Helvetica";
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.buttonClick {
+    display: none;
+}
+
+.missions {
+    font-family: "Helvetica";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 20%;
+}
+
+.missions .misOne {
+    margin-bottom: 10px;
+}
+
+.missions h3 {
+    color: #fff;
+}
+
+.missions p {
+    color: #fff;
+}
+
+#payPalLink {
+    color: #fff;
+    padding: 5px;
+    font-size: 18px;
+    background: #cd546a;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+#donatFixBt {
+    position: fixed;
+    left: -1px;
+    top: 60%;
+    margin: 0;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+}
+
+
+/* mobile style */
+
+
+/* RESPONSIVE BLOCK */
+
+@media screen and (max-width: 1390px) {
+    .atribut_formbx {
+        width: 70%;
+    }
+    .slider {
+        width: 70%;
+    }
+    .logo_div {
+        margin-right: 0px;
+    }
+    .company {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .buttonClick {
+        display: none;
+    }
+    @media screen and (max-width: 1390px) {
+        .icons_block {
+            margin-left: 0px;
+        }
+        .text_hebron_footer {
+            margin-left: 0px;
+        }
+        /*    .info_about_us{
+        display: block;
+    }*/
+        .us_pictures {
+            width: 100%;
+        }
+        /*    .block_picture_one{
+        display: flex;
+    }*/
+        .text_about_us {
+            text-align: center;
+            width: 100%;
+        }
+        .block_with_hr {
+            display: none;
+        }
+        .name_Our_mission {
+            margin-top: 50px;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            margin-left: auto;
+        }
+    }
+    @media screen and (max-width: 1150px) {
+        .hebron_menu .button_donate {
+            display: none;
+        }
+        .atribut_formbx {
+            width: 80%;
+        }
+        .text_social_project {
+            margin-right: 50px;
+            margin-left: 50px;
+        }
+        .nav_style {
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        @media screen and (max-width: 1145px) {
+            .logo_text_hebron {
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+        .ukrainian_block_link {
+            margin-right: 0px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .hebron_menu {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    }
+    .logo_div {
+        margin-left: 0px;
+    }
+    @media screen and (max-width: 1080px) {
+        logo_text_hebron {
+            margin-top: 20px;
+        }
+        .ukrainian_block_link {
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-top: 10px;
+        }
+    }
+    @media screen and (max-width: 1050px) {
+        .slick-dotted.slick-slider {
+            width: 60%;
+        }
+    }
+    @media screen and (max-width: 1080px) {
+        .ukrainian_block_link {
+            margin-left: 20px;
+        }
+        .represent_motto {
+            text-align: center;
+        }
+    }
+    @media screen and (max-width: 999px) {
+        .info_about_us {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+    }
+    @media screen and (max-width: 952px) {
+        .hebron_menu {
+            margin-top: 10px;
+        }
+        .ukrainian_block_link {
+            margin-top: 20px;
+        }
+    }
+    @media screen and (max-width: 950px) {
+        .check_us_block {
+            margin-bottom: 10px;
+        }
+        .meet_us {
+            text-align: center;
+        }
+        .name_press {
+            text-align: center;
+        }
+        .adress_block {
+            margin-bottom: 10px;
+        }
+        .icons_block div {
+            margin-bottom: 10px;
+        }
+        .adress_block {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+        .content_down_block {
+            letter-spacing: 1px;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        .name_uper_block_check_us {
+            text-align: center;
+            margin-left: auto;
+            margin-bottom: 5px;
+        }
+        .missions {
+            margin-top: 20px;
+            width: 80%;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .our_process_block_second {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+        .formbox {
+            width: 100%;
+        }
+        .support_our_project {
+            text-align: center;
+        }
+        .first_process,
+        .second_process,
+        .third_process,
+        .fourth_process {
+            width: 65%;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .block_logo_all_companies {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        .support_our_project {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    }
+    @media screen and (max-width: 750px) {
+        .hebron_menu {
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+    }
+    @media screen and (max-width: 750px) {
+        .block_picture_one {
+            margin-top: 50px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        .block_picture_one img {
+            width: 80%;
+        }
+        .block_picture_two img {
+            width: 80%;
+        }
+        .block_picture_two {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .hideThisBurger {
+            display: block;
+        }
+        .nav_style {
+            display: none;
+        }
+        .mobileMenu {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            letter-spacing: 3px;
+        }
+        .button_block {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .mobileMenu .ukrainian_block_link {
+            margin-bottom: 10px;
+        }
+        .buttonClick {
+            display: block;
+            background-color: #292929;
+            text-align: center;
+            cursor: pointer;
+        }
+        .btnClick {
+            font-size: 40px;
+            color: #fff;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .adress_block {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 410px) {
+        .slick-prev slick-arrow {
+            display: none;
+        }
+        .slick-next slick-arrow {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .slick-next {
+            display: none;
+        }
+        #donatFix {
+            outline: none;
+            cursor: pointer;
+            position: fixed;
+            bottom: 40%;
+            right: -2%;
+        }
+        #img_donat {
+            cursor: pointer;
+            width: 40px;
+            z-index: 55;
+        }
+        .slick-slide img {
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: 410px) {
+        .represent_motto {
+            font-size: 35px;
+        }
+        .inputstyle {
+            width: 80%;
+        }
+        .parteners {
+            width: 90%;
+        }
+        .block_logo_all_companies {
+            width: 90%;
+        }
+        .company {
+            width: 90%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+        .logo_company_img {
+            width: 100%;
+        }
+        .atribut_formbx {
+            width: 90%;
+        }
+    }
+    @media screen and (max-width: 820px) {
+        .inputstyle1,
+        .inputstyle2,
+        .inputstyle3 {
+            padding-left: 10%;
+            width: 90%;
+        }
+    }
+    @media screen and (max-width: 345px) {
+        .inputstyle1,
+        .inputstyle2,
+        .inputstyle3 {
+            padding-left: 12%;
+            width: 88%;
+        }
+    }
+}

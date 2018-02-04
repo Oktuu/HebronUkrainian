@@ -1,0 +1,996 @@
+* {
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "IowanOldSt_BT_Bold";
+    src: url("../fonts/IowanOldSt_BT_Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1800px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.logo_div {
+    width: 10%;
+    margin-right: 10px;
+}
+
+.logo_text_hebron {
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.logo_text_hebron_column {
+    margin-left: 0px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.hebron_menu {
+    padding-left: 0px;
+    margin-left: 100px;
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.link_hebron_home_page {
+    text-decoration: none;
+}
+
+.hebron_list {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+.hebron_list:hover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #cd546a;
+}
+
+#name_of_company {
+    font-family: IowanOldSt_BT_Bold;
+    margin-left: 0px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    font-size: 24px;
+    color: #5e646d;
+}
+
+#education_Organization {
+    font-family: IowanOldSt_BT_Bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5e646d;
+}
+
+.link_our_mission {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_students {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_sudy {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_faq {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_get_involved {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_contacts {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button_donate {
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2px solid #cd546a;
+    border-radius: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: #cd546a;
+    font-family: "Montserrat", sans-serif;
+    -webkit-animation: pulse_animation 2s linear infinite;
+    animation: pulse_animation 2s linear infinite;
+}
+
+.button_donate:hover {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: linear-gradient(135deg, #cb4c70, #d8774c);
+    color: white;
+}
+
+.ukrainian_block_link {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.meet_our_students {
+    margin-top: 50px;
+    background: url(../img/bg-image-1.jpg);
+    background-size: cover;
+}
+
+.meet_text {
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: "Helvetica", sans-serif;
+    color: #cd546a;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.our_students_name {
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 64px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.link_to_home_page {
+    padding-left: 100px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #cb4c70;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.link_to_home_page:hover {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    color: #c8c8c8;
+}
+
+.row {
+    color: #c8c8c8;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.link_to_students {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: #c8c8c8;
+}
+
+.link_home_block_students {
+    padding-bottom: 20px;
+}
+
+.faq_block {
+    margin-top: 100px;
+    max-width: 1800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.bloq_with_faq {
+    margin-right: 50px;
+    width: 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.down_block {
+    background-color: #28313a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.check_us_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.links_us {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.icons_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.icon_inblock {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.content_down_block {
+    width: 100%;
+    max-width: 1800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.name_uper_block_check_us {
+    margin-left: 0px;
+    font-family: "Helvetica";
+    color: #ffefb1;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.ul_check_us {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.check_us_list {
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.name_hebron_footer {
+    margin-left: 50px;
+    font-family: IowanOldSt_BT_Bold;
+    line-height: 1;
+    letter-spacing: 0.2em;
+    font-size: 24px;
+    color: white;
+}
+
+.text_hebron_footer {
+    margin-left: 50px;
+    font-family: IowanOldSt_BT_Bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    background-color: #242c34;
+}
+
+.block_footer_text {
+    max-width: 1800px;
+}
+
+.footer_text {
+    color: #c8c8c8;
+    font-size: 16px;
+    padding-left: 100px;
+    font-family: IowanOldSt_BT_Bold;
+}
+
+.link_it_hebron {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    color: red;
+}
+
+.check_us_list1 {
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.check_us_list1:hover {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    color: #88afef;
+}
+
+
+/*style to button and menu fixed block*/
+
+.fixed {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    background-color: #fff;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    max-width: 5000px;
+    z-index: 2;
+    border-bottom: 2px solid #cb4c70;
+}
+
+.fixed .logo_text_hebron {
+    margin-top: 0px;
+    width: 20%;
+}
+
+.fixed .hebron_menu {
+    margin-top: 30px;
+}
+
+.fixed .ukrainian_block_link {
+    margin-top: 40px;
+}
+
+.scrollToTop {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #cb4c70, #d8774c);
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    border-top-left-radius: 25px;
+    font-size: 25px;
+}
+
+.scrollToTop:hover {
+    text-decoration: none;
+}
+
+.aboutUsBlock {
+    margin-top: 50px;
+    max-width: 1800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.firstBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.videoPresentation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.hebronVideo {
+    margin-right: 100px;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0px 0px 20px 0px silver;
+    box-shadow: 0px 0px 20px 0px silver;
+}
+
+.firstNameBlock {
+    color: #cb4c70;
+    font-size: 25px;
+    font-family: "IowanOldSt_BT_Bold";
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.fewWords {
+    font-size: 30px;
+    font-family: "Helvetica";
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.weAreNot {
+    color: #292929;
+    font-size: 25px;
+    font-family: "Helvetica";
+    margin-bottom: 30px;
+}
+
+.paragraphAbout {
+    font-family: "Helvetica";
+    font-size: 20px;
+    line-height: 1.5;
+    color: grey;
+}
+
+.timeline {
+    max-width: 1800px;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.timlinePicture {
+    width: 40%;
+}
+
+.timlinePicture img {
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 20px 0px silver;
+    box-shadow: 0px 0px 20px 0px silver;
+}
+
+.timeLineName {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.timeLine2017 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.paragraphBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.timlineHistory {
+    width: 50%;
+}
+
+.time2017 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.timLineParagraph17 {
+    font-family: "Helvetica";
+    padding: 20px;
+    font-size: 18px;
+    font-family: "Helvetica";
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+@-webkit-keyframes pulse_animation {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    30% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    40% {
+        -webkit-transform: scale(1.08);
+        transform: scale(1.08);
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    60% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    70% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse_animation {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    30% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    40% {
+        -webkit-transform: scale(1.08);
+        transform: scale(1.08);
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    60% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    70% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    80% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+/* preloader */
+
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #233b50;
+    z-index: 100500;
+    opacity: 0.9;
+}
+
+#page-preloader .spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -16px 0 0 -16px;
+}
+
+.preloaderName {
+    font-size: 50px;
+    color: #fff;
+}
+
+.preloaderName:first-letter {
+    color: #cb4c70;
+}
+
+.spin {
+    width: 50px;
+    height: 50px;
+    background-color: #233b50;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    border-top-color: #cb4c70;
+    -webkit-animation: preloader 1s linear infinite;
+    animation: preloader 1s linear infinite;
+}
+
+@-webkit-keyframes preloader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-box-shadow: 0px 0px 20px 1px #fff;
+        box-shadow: 0px 0px 20px 1px #fff;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes preloader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-box-shadow: 0px 0px 20px 1px #fff;
+        box-shadow: 0px 0px 20px 1px #fff;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+#payPalLink {
+    color: #fff;
+    padding: 5px;
+    font-size: 18px;
+    background: #cd546a;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+#donatFixBt {
+    position: fixed;
+    left: -1px;
+    top: 60%;
+    margin: 0;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+}
+
+.missions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 30%;
+    font-family: "Helvetica";
+}
+
+.missions .misOne {
+    margin-bottom: 10px;
+}
+
+.missions h3 {
+    color: #fff;
+}
+
+.missions p {
+    color: #fff;
+}
+
+@media screen and (max-width: 1080px) {
+    .missions {
+        margin-top: 20px;
+        width: 80%;
+        text-align: center;
+    }
+}
+
+.content_down_block {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#donatFix {
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 65%;
+    right: -2%;
+    -webkit-animation: pulse_animation 2s linear infinite;
+    animation: pulse_animation 2s linear infinite;
+}
+
+@media screen and (max-width: 500px) {
+    #donatFix {
+        outline: none;
+        cursor: pointer;
+        position: fixed;
+        bottom: 50%;
+        right: -4%;
+        width: 20%;
+    }
+}
+
+#img_donat {
+    -webkit-animation: pulse_animation 2s linear infinite;
+    animation: pulse_animation 2s linear infinite;
+    width: 50%;
+    -webkit-filter: drop-shadow(0px 0px 5px #fff);
+    filter: drop-shadow(0px 0px 5px #fff);
+}
+
+.hideThisBurger {
+    display: none;
+}
+
+.menuMobileName {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
+    font-family: "Helvetica";
+    text-transform: uppercase;
+}
+
+.line1 {
+    margin-left: 10px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.line2 {
+    margin-left: 10px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.line3 {
+    margin-left: 10px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+}
+
+.line4 {
+    background-color: #cd546a;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.line6 {
+    background-color: #cd546a;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform: rotate(45deg) translate(-8px, -6px);
+    transform: rotate(45deg) translate(-8px, -6px);
+}
+
+.line5 {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.burger_click {
+    border: none;
+    border-bottom: 2px solid #cd546a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #292929;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1264px) {
+    .aboutUsBlock {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .firstBlock {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .videoPresentation {
+        width: 90%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .hebronVideo {
+        margin: auto;
+    }
+    .videoPresentation {
+        margin: auto;
+    }
+    .timeline {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .timlinePicture {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .timlineHistory {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hideThisBurger {
+        display: block;
+    }
+    .block_menu {
+        display: none;
+    }
+    .ukrainian_block_link {
+        margin: auto;
+    }
+    .meet_our_students {
+        margin-top: 0px;
+    }
+    .check_us_block {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .mobileShow {
+        background-color: #292929;
+        height: 100vh;
+        display: none;
+    }
+    .mobileMenu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-left: 0px;
+        background-color: #292929;
+    }
+    .list_mobile {
+        -webkit-transition: all .5s;
+        transition: all .5s;
+        padding: 10px;
+        list-style: none;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .list_mobile:hover {
+        -webkit-transition: all .5s;
+        transition: all .5s;
+        background-color: #cb4c70;
+    }
+    .mobileLink {
+        text-decoration: none;
+        font-size: 18px;
+        font-family: "Helvetica";
+        color: #fff;
+        text-transform: uppercase;
+    }
+}

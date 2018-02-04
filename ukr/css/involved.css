@@ -1,0 +1,1037 @@
+* {
+    margin: 0 auto;
+}
+@font-face {
+    font-family: "IowanOldSt_BT_Bold";
+    src: url("../fonts/IowanOldSt_BT_Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+nav {
+    margin: 0 auto;
+    max-width: 1800px;
+    color: white;
+    display: flex;
+}
+.logo_div {
+    width: 10%;
+    margin-right: 10px;
+}
+.logo_text_hebron {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+.logo_text_hebron_column {
+    margin-left: 0px;
+    justify-content: center;
+    flex-direction: column;
+}
+.hebron_menu {
+    padding-left: 0px;
+    margin-left: 300px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.link_hebron_home_page {
+    text-decoration: none;
+}
+.hebron_list {
+    transition: all .5s;
+    padding: 10px;
+}
+.hebron_list:hover {
+    transition: all .5s;
+    color: #cd546a;
+}
+#name_of_company {
+    font-family: IowanOldSt_BT_Bold;
+    margin-left: 0px;
+    line-height: 1;
+    letter-spacing: .2em;
+    font-size: 24px;
+    color: #5e646d;
+}
+#education_Organization {
+    font-family: IowanOldSt_BT_Bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5e646d;
+}
+.link_our_mission {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.link_students {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.link_sudy {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.link_faq {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.link_get_involved {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.link_contacts {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.button_donate {
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+    border: 2px solid #cd546a;
+    border-radius: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: #cd546a;
+    font-family: 'Montserrat', sans-serif;
+    animation: pulse_animation 2s linear infinite;
+}
+.button_donate:hover {
+    transition: all .3s;
+    cursor: pointer;
+    background: linear-gradient(135deg, #cb4c70, #d8774c);
+    color: white;
+}
+.ukrainian_block_link {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.meet_our_students {
+    margin-top: 50px;
+    background: url(../img/bg-image-1.jpg);
+    background-size: cover;
+}
+.meet_text {
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: 'Helvetica', sans-serif;
+    color: #cd546a;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+}
+.our_students_name {
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
+}
+.link_to_home_page {
+    padding-left: 100px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #cb4c70;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .4s;
+}
+.link_to_home_page:hover {
+    transition: all .4s;
+    color: #c8c8c8;
+}
+.row {
+    color: #c8c8c8;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.link_to_students {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #c8c8c8;
+}
+.link_home_block_students {
+    padding-bottom: 20px;
+}
+.how_to_help_us_name {
+    font-family: "Helvetica";
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #233b50;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.how_to_help_block {
+    background-color: #233b50;
+    padding-bottom: 100px;
+}
+.flex-block-how-to-help {
+    max-width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.prhelp{
+    margin-top: 40px;
+}
+.paragraph_help {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.button_block {
+    display: flex;
+}
+.block_one,
+.block_two,
+.block_three,
+.block_four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.img_icon {
+    width: 100%;
+    transition: all .5s;
+}
+#img_icon {
+    width: 100%;
+    transition: all .5s;
+}
+#img_icon:hover {
+    transition: all .5s;
+    transform: translateY(-10px);
+}
+.img_icon:hover {
+    cursor: pointer;
+    transition: all .5s;
+    transform: translateY(-10px);
+}
+hr {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.button_style {
+    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
+    padding: 15px;
+    margin: 10px;
+    border: 3px solid #5c6df0;
+    font-size: 20px;
+    border-radius: 31px;
+    transition: all .3s;
+}
+.button_style:hover {
+    transition: all .3s;
+    background-color: #5c6df0;
+    color: #fff;
+}
+.paragraph_block_ {
+    max-width: 1800px;
+    margin-top: 50px;
+}
+.block_paragraph_first {
+    width: 60%;
+}
+.firstparagrapg {
+    color: #1a1a1a;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+}
+.different_name {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+.different_paragraph {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-top: 20px;
+}
+.way {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    width: 60%;
+    line-height: 1.4;
+}
+.down_block {
+    background-color: #28313a;
+    display: flex;
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.check_us_block {
+    display: flex;
+    flex-direction: column;
+}
+.links_us {
+    display: flex;
+    flex-direction: column;
+}
+.icons_block {
+    display: flex;
+    margin-bottom: 30px;
+}
+.icon_inblock {
+    cursor: pointer;
+    margin-left: 10px;
+}
+.content_down_block {
+    width: 100%;
+    max-width: 1800px;
+    display: flex;
+}
+.name_uper_block_check_us {
+    margin-left: 0px;
+    font-family: "Helvetica";
+    color: #ffefb1;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.ul_check_us {
+    padding-left: 0px;
+    list-style: none;
+}
+.check_us_list {
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+}
+.name_hebron_footer {
+    margin-left: 50px;
+    font-family: IowanOldSt_BT_Bold;
+    line-height: 1;
+    letter-spacing: .2em;
+    font-size: 24px;
+    color: white;
+}
+.text_hebron_footer {
+    margin-left: 50px;
+    font-family: IowanOldSt_BT_Bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+footer {
+    background-color: #242c34;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.block_footer_text {
+    max-width: 1800px;
+}
+.footer_text {
+    color: #c8c8c8;
+    font-size: 16px;
+    padding-left: 100px;
+    font-family: IowanOldSt_BT_Bold;
+}
+.link_it_hebron {
+    text-decoration: none;
+    transition: all .4s;
+    color: red;
+}
+.check_us_list1 {
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    transition: all .4s;
+}
+.check_us_list1:hover {
+    transition: all .4s;
+    color: #88afef;
+}
+/*style to button and menu fixed block*/
+
+.fixed {
+    transition: all .5s;
+    background-color: #292929;
+    opacity: .9;
+    color: white;
+    display: flex;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    max-width: 5000px;
+    z-index: 2;
+}
+.fixed .logo_text_hebron {
+    margin-top: 0px;
+    width: 20%;
+}
+.fixed .hebron_menu {
+    margin-top: 30px;
+}
+.fixed .ukrainian_block_link {
+    margin-top: 30px;
+}
+.fixed a {
+    color: #fff;
+}
+.scrollToTop {
+    width: 100px;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #cb4c70, #d8774c);
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    border-top-left-radius: 25px;
+    font-size: 25px;
+}
+.scrollToTop:hover {
+    text-decoration: none;
+}
+@keyframes pulse_animation {
+    0% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.08);
+    }
+    50% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.05);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/* modal css */
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    
+    position: fixed;
+    /* Stay in place */
+    
+    z-index: 1;
+    /* Sit on top */
+    
+    padding-top: 100px;
+    /* Location of the box */
+    
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    
+    height: 100%;
+    /* Full height */
+    
+    overflow: auto;
+    /* Enable scroll if needed */
+    
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+/* Modal Content */
+/* FIRST LAPTOP */
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: .5s
+}
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+/* The Close Button */
+
+.close {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    padding: 2px 16px;
+    background-color: #233B50;
+    color: white;
+}
+.modal-body {
+    background-color: #233B50;
+    padding: 2px 16px;
+}
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #233B50;
+    color: white;
+    border: none;
+}
+#myBtn {
+    transition: all.5s;
+    cursor: pointer;
+}
+#myBtn:hover {
+    transition: all.5s;
+    transform: translateY(-10px);
+}
+.laptopName {
+    margin-left: 5px;
+    padding: 30px;
+    font-size: 20px;
+    color: #cb4c70;
+    font-family: "Montserrat";
+}
+.donatelaptop,
+.donatefinance {
+    margin-left: 5px;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 30px;
+    font-family: "Montserrat";
+}
+.donatefinance {
+    margin-bottom: 20px;
+}
+.pic_prgrph {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.colonka {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img_lap {
+    margin-right: 10px;
+    width: 30%;
+}
+/* FIRST LAPTOP */
+
+#financModal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0%;
+    overflow: auto;
+    /* Enable scroll if needed */
+    
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    
+    -webkit-animation-name: animateto;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateto;
+    animation-duration: .5s
+}
+@-webkit-keyframes animateto {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+@keyframes animateto {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+.somecon {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    z-index: 2;
+    background-color: #233B50;
+    width: 80%;
+    top: 10%!important;
+    left: 10%;
+    padding-bottom: 20px;
+}
+/* volontering modal css */
+
+#modalVol {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0%;
+    overflow: auto;
+    /* Enable scroll if needed */
+    
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    
+    -webkit-animation-name: animateto;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateto;
+    animation-duration: .5s
+}
+#contentVol {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    z-index: 2;
+    background-color: #233B50;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    padding-bottom: 20px;
+
+}
+/* volontering modal css */
+/* helpModal Css */
+
+/* helpModal Css */
+#helpModal{
+     display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0%;
+    overflow: auto;
+    /* Enable scroll if needed */
+    
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    
+    -webkit-animation-name: animateto;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animateto;
+    animation-duration: .5s
+}
+.helpModalBlock{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    z-index: 2;
+    background-color: #233B50;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    padding-bottom: 20px;
+
+}
+#close{
+    color: #fff;
+    font-size: 30px;
+    text-align: end;
+    cursor: pointer;
+}
+/* mobile respon */
+@media screen and (max-width: 1500px){
+.hebron_menu{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.ukrainian_block_link{
+    margin-top: 10px;
+}
+.logo_text_hebron{
+    margin-top: 10px;
+}
+}
+@media screen and (max-width: 1277px){
+.block_with_director{
+    display: none;
+}
+.learning_plan{
+    width: 90%;
+    text-align: center;
+}
+
+.blockWithCard{
+    justify-content: center;
+}
+.icons_block{
+    margin-bottom: 30px;
+
+}
+}
+@media screen and (max-width: 1210px){
+.logo_div{
+    display: none;
+}
+.logo_text_hebron{
+    margin-right: 10px;
+}
+.hebron_menu{
+    margin-right: 10px;
+}
+}
+@media screen and (max-width: 1025px){
+    .nav_style{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 978px){
+.logo_text_hebron_column{
+    display: none;
+}
+.logo_text_hebron{
+    display: none;
+}
+.ukrainian_block_link{
+    margin-right: 10px;
+}
+.our_students_name{
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+.link_to_home_page{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.meet_text{
+    display: none;
+}
+.link_home_block_students{
+    margin-left: 5px;
+}
+}
+@media screen and (max-width: 780px){
+.content_down_block{
+    display: block;
+}
+.name_uper_block_check_us{
+    margin-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.ul_check_us{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.name_hebron_footer{
+    text-align: center;
+}
+.text_hebron_footer{
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer_text{
+    padding-left: 0px;
+    text-align: center;
+}
+}
+@media screen and (max-width: 755px){
+.payPall{
+    margin-left: 0;
+    margin-right: 0px;
+}
+.our_students_name{
+    text-align: center;
+}
+}
+ .mobileShow{
+    display: none;
+ }
+ .mobileMenu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 0px;
+    background-color: #292929;
+ }
+ .mobileMenu .button_donate{
+    position: static;
+        padding-bottom: 10px;
+    padding-top: 10px; 
+ }
+ .mobileMenu .ukrainian_block_link{
+    margin-top: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+ }
+ .button_block{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .list_mobile{
+    transition: all .5s;
+    padding: 10px;
+    list-style: none;
+    margin-left: 1px;
+    margin-right: 1px;
+ }
+ .list_mobile:hover{
+    transition: all .5s;
+    background-color: #cb4c70;
+ }
+ .mobileLink{
+
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Helvetica";
+    color: #fff;
+    text-transform: uppercase;
+ }
+ .buttonClick{
+    display: none;
+ }
+ .mobileShow{
+    display: none;
+ }
+ @media screen and (max-width: 600px){
+    .block_img_card_webui{
+        width: 90%;
+    }
+    .buttonClick{
+        display: block;
+    }
+    .nav_style{
+        display: none;
+    }
+    .mobileMenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        letter-spacing: 3px;
+    }
+    .button_block{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .mobileMenu .ukrainian_block_link{
+        margin-bottom: 10px;
+    }
+    .buttonClick{
+        display: block;
+        background-color: #292929;
+        text-align: center;
+        cursor: pointer;
+    }
+    .btnClick{
+        font-size: 40px;
+        color: #fff;
+    }
+    .mobileShow{
+        display: block;
+    }
+    .meet_our_students{
+        margin-top: 0px;
+    }
+    .product-image-overlay img{
+        width: 100%;
+    }
+
+}
+
+/* content get involved */
+@media screen and (max-width: 1370px){
+hr{
+    display: none;
+}
+.pic_prgrph{
+    flex-direction: column;
+}
+.pic_prgrph img{
+    display: none;
+}
+.laptopName {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.colonka{
+    width: 100%;
+}
+.modal-body{
+    padding: 0px;
+}
+}
+#donatFix{
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    bottom:30%;
+    right:-2%;
+     animation: pulse_animation 2s linear infinite;
+/*    transform: rotate(-90deg);*/
+}
+@media screen and (max-width: 500px) {
+    #donatFix{
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    bottom:50%;
+    right:-3%;
+    width: 20%;
+}
+}
+#img_donat{
+    animation: pulse_animation 2s linear infinite;
+    width: 50%;
+    filter: drop-shadow(0px 0px 5px #fff);
+}
+.missions{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+ }
+ .missions .misOne{
+    margin-bottom: 10px;
+ }
+ .missions h3{
+    color: #fff;
+ }
+ .missions p{
+    color: #fff;
+}
+@media screen and (max-width: 1080px){
+    .missions{
+        margin-top: 20px;
+        width: 80%;
+        text-align: center;
+    }
+}
+
+.content_down_block{
+flex-wrap:wrap;
+}

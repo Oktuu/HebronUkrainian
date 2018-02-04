@@ -1,0 +1,999 @@
+* {
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "IowanOldSt_BT_Bold";
+    src: url("../fonts/IowanOldSt_BT_Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#payPalLink {
+    color: #fff;
+    padding: 5px;
+    font-size: 18px;
+    background: #cd546a;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+#donatFixBt {
+    position: fixed;
+    left: -1px;
+    top: 60%;
+    margin: 0;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+}
+
+.nav_style {
+    margin: 0 auto;
+    max-width: 1800px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo_div {
+    width: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo_text_hebron {
+    margin-left: 0px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_text_hebron_column {
+    margin-left: 0px;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.hebron_menu {
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.link_hebron_home_page {
+    text-decoration: none;
+}
+
+.hebron_list {
+    transition: all .5s;
+    padding: 10px;
+}
+
+.hebron_list:hover {
+    transition: all .5s;
+    color: #cd546a;
+}
+
+#name_of_company {
+    font-family: IowanOldSt_BT_Bold;
+    margin-left: 0px;
+    line-height: 1;
+    letter-spacing: .2em;
+    font-size: 24px;
+    color: #5e646d;
+}
+
+#education_Organization {
+    font-family: IowanOldSt_BT_Bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5e646d;
+}
+
+.link_our_mission {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_students {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_sudy {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_faq {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_get_involved {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link_contacts {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #5e646d;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button_donate {
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+    border: 2px solid #cd546a;
+    border-radius: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: #cd546a;
+    font-family: 'Montserrat', sans-serif;
+    animation: pulse_animation 2s linear infinite;
+}
+
+.button_donate:hover {
+    transition: all .3s;
+    cursor: pointer;
+    background: linear-gradient(135deg, #cb4c70, #d8774c);
+    color: white;
+}
+
+.ukrainian_block_link {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.meet_our_students {
+    margin-top: 50px;
+    background: url(../img/bg-image-1.jpg);
+    background-size: cover;
+}
+
+.meet_text {
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: 'Helvetica', sans-serif;
+    color: #cd546a;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.our_students_name {
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: white;
+    font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link_to_home_page {
+    padding-left: 100px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #cb4c70;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .4s;
+}
+
+.link_home_block_students {
+    margin-left: 50px;
+}
+
+.link_to_home_page:hover {
+    transition: all .4s;
+    color: #c8c8c8;
+}
+
+.row {
+    color: #c8c8c8;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.link_to_students {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #c8c8c8;
+}
+
+.meet_block {
+    max-width: 1800px;
+    padding-bottom: 20px;
+}
+
+.our_students_block {
+    margin-top: 50px;
+    max-width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.our_students_text {
+    margin-left: 150px;
+    width: 30%;
+}
+
+.our_students_name_ {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    color: #cd546a;
+    font-size: 20px;
+}
+
+.list_our_students {
+    font-family: 'Montserrat', sans-serif;
+    color: #292929;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.text_student_first {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #848484;
+    margin-bottom: 10px;
+}
+
+.fid_block {
+    display: flex;
+    width: 55%;
+}
+
+.card_student {
+    width: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all .3s;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card_student:hover {
+    transition: all .3s;
+    cursor: pointer;
+    box-shadow: 0px 15px 30px 0px silver;
+}
+
+.descreption_card {
+    padding-bottom: 30px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.name_student {
+    font-size: 22px;
+    color: #cd546a;
+    font-weight: bold;
+    font-family: "Helvetica";
+    text-align: center;
+    margin-top: 5px;
+}
+
+.img_student {
+    width: 100%;
+}
+
+.student_descreption {
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    color: #848484;
+    width: 100%;
+    text-align: center;
+}
+
+.card_student_part_second {
+    padding-top: 50px;
+    max-width: 1800px;
+}
+
+.student_part_second {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+
+.link_portofolio {
+    text-decoration: none;
+    margin: 0;
+}
+
+.down_block {
+    background-color: #28313a;
+    display: flex;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.check_us_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.links_us {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons_block {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.icon_inblock {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.content_down_block {
+    width: 100%;
+    max-width: 1800px;
+    display: flex;
+}
+
+.name_uper_block_check_us {
+    margin-left: 0px;
+    font-family: "Helvetica";
+    color: #ffefb1;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.ul_check_us {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.check_us_list {
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.name_hebron_footer {
+    margin-left: 50px;
+    font-family: IowanOldSt_BT_Bold;
+    line-height: 1;
+    letter-spacing: .2em;
+    font-size: 24px;
+    color: white;
+}
+
+.text_hebron_footer {
+    margin-left: 50px;
+    font-family: IowanOldSt_BT_Bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    background-color: #242c34;
+}
+
+.block_footer_text {
+    max-width: 1800px;
+}
+
+.footer_text {
+    color: #c8c8c8;
+    font-size: 16px;
+    padding-left: 100px;
+    font-family: IowanOldSt_BT_Bold;
+}
+
+.link_it_hebron {
+    text-decoration: none;
+    transition: all .4s;
+    color: red;
+}
+
+.check_us_list1 {
+    font-family: "Helvetica";
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    padding: 10px;
+    transition: all .4s;
+}
+
+.check_us_list1:hover {
+    transition: all .4s;
+    color: #88afef;
+}
+
+.fixed {
+    transition: all .2s;
+    background-color: #fff;
+    color: white;
+    display: flex;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    max-width: 5000px;
+    border-bottom: 2px solid #cb4c70;
+}
+
+.fixed .hebron_list {
+    color: #292929;
+}
+
+.fixed .logo_text_hebron {
+    margin-top: 0px;
+    width: 20%;
+}
+
+.fixed .hebron_menu {
+    margin-top: 30px;
+}
+
+.fixed .ukrainian_block_link {
+    margin-top: 40px;
+}
+
+.scrollToTop {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #cb4c70, #d8774c);
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    border-top-left-radius: 25px;
+    font-size: 25px;
+}
+
+.scrollToTop:hover {
+    text-decoration: none;
+}
+
+@keyframes pulse_animation {
+    0% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.08);
+    }
+    50% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.05);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* preloader */
+
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #233B50;
+    z-index: 100500;
+    opacity: .9;
+}
+
+#page-preloader .spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -16px 0 0 -16px;
+}
+
+.preloaderName {
+    font-size: 50px;
+    color: #fff;
+}
+
+.preloaderName:first-letter {
+    color: #cb4c70;
+}
+
+.spin {
+    width: 50px;
+    height: 50px;
+    background-color: #233B50;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    border-top-color: #cb4c70;
+    animation: preloader 1s linear infinite;
+}
+
+@keyframes preloader {
+    0% {
+        transform: rotate(0deg);
+        box-shadow: 0px 0px 20px 1px #fff;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.missions {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    font-family: "Helvetica";
+}
+
+.missions .misOne {
+    margin-bottom: 10px;
+}
+
+.missions h3 {
+    color: #fff;
+}
+
+.missions p {
+    color: #fff;
+}
+
+@media screen and (max-width: 950px) {
+    .missions {
+        margin-top: 20px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .icons_block {
+        margin-bottom: 20px;
+    }
+    .name_hebron_footer {
+        margin-left: 10px;
+    }
+    .text_hebron_footer {
+        margin-left: 10px;
+    }
+    .content_down_block {
+        flex-wrap: wrap;
+    }
+    .missions {
+        width: 30%;
+    }
+    .our_students_block {
+        display: block;
+    }
+    .our_students_text {
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .fid_block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 1300px;
+    }
+    .card_student_part_second {
+        max-width: 1300px;
+    }
+    .student_part_second {
+        justify-content: center;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1044px) {
+    .hebron_menu {
+        margin-left: 2px!important;
+        margin-top: 10px!important;
+    }
+    .ukrainian_block_link {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .fixed .ukrainian_block_link {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .hebron_menu {
+        margin-right: 0px;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .missions {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .check_us_block {
+        margin-bottom: 10px;
+    }
+    .meet_us {
+        text-align: center;
+    }
+    .name_press {
+        text-align: center;
+    }
+    .adress_block {
+        margin-bottom: 10px;
+    }
+    .icons_block {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .icons_block div {
+        margin-bottom: 10px;
+    }
+    .adress_block {
+        display: flex;
+    }
+    .content_down_block {
+        letter-spacing: 1px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .name_uper_block_check_us {
+        text-align: center;
+        margin-left: auto;
+        margin-bottom: 5px;
+    }
+    .adress_block {
+        display: none;
+    }
+    .footer_text {
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .ukrainian_block_link {
+        margin-top: 20px;
+    }
+    .hebron_menu .button_donate {
+        display: none;
+    }
+}
+
+
+/* mobile style */
+
+.mobileShow {
+    background-color: #292929;
+    height: 100vh;
+    display: none;
+}
+
+.mobileMenu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 0px;
+    background-color: #292929;
+}
+
+.mobileMenu .button_donate {
+    position: static;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.mobileMenu .ukrainian_block_link {
+    margin-top: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.button_block {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list_mobile {
+    transition: all .5s;
+    padding: 10px;
+    list-style: none;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.list_mobile:hover {
+    transition: all .5s;
+    background-color: #cb4c70;
+}
+
+.mobileLink {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Helvetica";
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.buttonClick {
+    display: none;
+}
+
+.mobileShow {
+    display: none;
+}
+
+@media screen and (max-width: 644px) {
+    .ukrainian_block_link {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .our_students_name {
+        padding-left: 0px;
+        padding-top: 1px;
+        padding-bottom: 2px;
+        text-align: center;
+        font-size: 35px;
+    }
+    .meet_text {
+        display: none;
+    }
+    .link_home_block_students {
+        margin-left: 0px;
+    }
+    .link_to_home_page {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .card_student {
+        width: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        word-wrap: break-word;
+    }
+    .student_descreption {
+        word-wrap: break-word;
+        letter-spacing: 0px;
+    }
+}
+
+
+/* END MOBILE STYLE */
+
+@media screen and (max-width: 600px) {
+    .buttonClick {
+        display: block;
+    }
+    .nav_style {
+        display: none;
+    }
+    .mobileMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        letter-spacing: 3px;
+    }
+    .button_block {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .mobileMenu .ukrainian_block_link {
+        margin-bottom: 10px;
+    }
+    .buttonClick {
+        display: block;
+        background-color: #292929;
+        text-align: center;
+        cursor: pointer;
+    }
+    .btnClick {
+        font-size: 40px;
+        color: #fff;
+    }
+    .meet_our_students {
+        margin-top: 0px;
+    }
+}
+
+#donatFix {
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 65%;
+    right: -2%;
+    animation: pulse_animation 2s linear infinite;
+}
+
+@media screen and (max-width: 500px) {
+    #donatFix {
+        outline: none;
+        cursor: pointer;
+        position: fixed;
+        bottom: 50%;
+        right: -3%;
+        width: 20%;
+    }
+}
+
+#img_donat {
+    animation: pulse_animation 2s linear infinite;
+    width: 50%;
+    filter: drop-shadow(0px 0px 5px #fff);
+}
+
+.hideThisBurger {
+    display: none;
+}
+
+.menuMobileName {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
+    font-family: "Helvetica";
+    text-transform: uppercase;
+}
+
+.line1 {
+    margin-left: 10px;
+    transition: all .5s;
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.line2 {
+    margin-left: 10px;
+    transition: all .5s;
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.line3 {
+    margin-left: 10px;
+    transition: all .5s;
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+}
+
+.line4 {
+    background-color: #cd546a;
+    transition: all .5s;
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.line6 {
+    background-color: #cd546a;
+    transition: all .5s;
+    transform: rotate(45deg) translate(-8px, -6px);
+}
+
+.line5 {
+    transition: all .5s;
+    opacity: 0;
+}
+
+.burger_click {
+    border: none;
+    border-bottom: 2px solid #cd546a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #292929;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .hideThisBurger {
+        display: block;
+    }
+}
